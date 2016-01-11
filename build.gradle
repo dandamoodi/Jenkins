@@ -15,7 +15,8 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 apply plugin: 'maven'
-
+apply plugin: 'war'
+ 
 war.archiveName "gradleDemo.war"
 war {
 	baseName = 'demo'
