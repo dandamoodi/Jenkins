@@ -20,7 +20,7 @@ public class SpringBootSampleApplicationTests {
     
     @Test
     public void testMethodTwo(){
-	Assert.assertTrue(true);
+	Assert.assertTrue(false);
     }
 
 
